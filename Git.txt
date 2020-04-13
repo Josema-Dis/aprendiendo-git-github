@@ -7,7 +7,7 @@ git log filename.txt -> Te da el historial de cambios con su serial number, el n
 
 git log --stat filename.txt -> Cambios especificos que se hicieron en cuales archivos a partir del commit 
 
-git checkout SERIAL_NUMBER_COMMIT filename.txt -> Sobreescribe el arhivo por la versión de este commit. Es decir, tengo el archivo actual historia.txt con el serial number abc3 y quiero volver a la versión primera de historia.txt, miro en el log su serial number el cual es abc1 y hago el comando. También se podría ejecutar de la siguiente manera: git checkout master filename.txt que es la última versión que se había commiteado o estaba en master.
+git checkout SERIAL_NUMBER_COMMIT filename.txt (also known as VIAJAR EN EL TIEMPO) -> Sobreescribe el arhivo por la versión de este commit. Es decir, tengo el archivo actual historia.txt con el serial number abc3 y quiero volver a la versión primera de historia.txt, miro en el log su serial number el cual es abc1 y hago el comando. También se podría ejecutar de la siguiente manera: git checkout master filename.txt que es la última versión que se había commiteado o estaba en master. 
 
 git rm
 Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Esto quiere decir que si necesitamos recuperar el archivo solo debemos “viajar en el tiempo” y recuperar el último commit antes de borrar el archivo en cuestión.
