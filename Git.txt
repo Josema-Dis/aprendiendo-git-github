@@ -1,7 +1,7 @@
 Hola, soy Josema
 
 git config -l -> Lista las configuraciones de GITHUB
-git configur --global user.email "email@email.com" 
+git config --global user.email "email@email.com" 
 
 git log filename.txt -> Te da el historial de cambios con su serial number, el nombre del commit, etc.
 
