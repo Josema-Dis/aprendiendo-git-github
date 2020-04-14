@@ -59,6 +59,8 @@ git push origin master -> Git envia a Origin la rama master
 
 ------------------------
 
+TAGS
+
 Los tags o etiquetas nos permiten asignar versiones a los commits con cambios más importantes o significativos de nuestro proyecto.
 
 Comandos para trabajar con etiquetas:
