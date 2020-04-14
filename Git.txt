@@ -21,7 +21,7 @@ git reset HEAD -> lo único que haremos será mover estos cambios de Staging a U
 
 git fetch -> Trae del repositorio remoto al local, únicamente.
 git merge -> Unifica el repositorio local con el directorio de trabajo.
-Para hacer ambos, se usan el git pull.
+Para hacer ambos, se usan -> git pull
 
 En el entorno de VIM  puedo usar ESC+i para escribir ..... escribimos ..... ESC+SHIFT+ZZ para save.
 Q para salir de pantallas de git log
@@ -53,3 +53,4 @@ git remote -v -> Nos muestra que hay urls de Github para hacer fecth o push.
 
 git pull origin master -> Me traigo primero el readme.md de Github a mi directorio local
 git push origin master -> Git envia a Origin la rama master
+
